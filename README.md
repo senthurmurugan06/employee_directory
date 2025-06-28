@@ -4,12 +4,12 @@ A dynamic Employee Directory system built with Django, featuring AJAX interactio
 
 ## Features
 
-**Dynamic Employee Viewing**: View employees using AJAX and JavaScript fetch API
-**Modal Form**: Add new employees via Bootstrap-powered modal without page reload
-**Secure API**: Django decorators and session-based authentication
-**Django ORM**: All data operations via Django ORM
-**Jinja Templates**: UI rendering using Django templating
-**Custom Management Command**: `refresh_employees` command to simulate data refresh
+**1.Dynamic Employee Viewing**: View employees using AJAX and JavaScript fetch API
+**2.Modal Form**: Add new employees via Bootstrap-powered modal without page reload
+**3.Secure API**: Django decorators and session-based authentication
+**4.Django ORM**: All data operations via Django ORM
+**5.Jinja Templates**: UI rendering using Django templating
+**6.Custom Management Command**: `refresh_employees` command to simulate data refresh
 
 ##  Tech Stack
 
