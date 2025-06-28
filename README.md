@@ -2,23 +2,23 @@
 
 A dynamic Employee Directory system built with Django, featuring AJAX interactions, Bootstrap UI, and RESTful API endpoints.
 
-## 🚀 Features
+## Features
 
-✅ **Dynamic Employee Viewing**: View employees using AJAX and JavaScript fetch API
-✅ **Modal Form**: Add new employees via Bootstrap-powered modal without page reload
-✅ **Secure API**: Django decorators and session-based authentication
-✅ **Django ORM**: All data operations via Django ORM
-✅ **Jinja Templates**: UI rendering using Django templating
-✅ **Custom Management Command**: `refresh_employees` command to simulate data refresh
+**Dynamic Employee Viewing**: View employees using AJAX and JavaScript fetch API
+**Modal Form**: Add new employees via Bootstrap-powered modal without page reload
+**Secure API**: Django decorators and session-based authentication
+**Django ORM**: All data operations via Django ORM
+**Jinja Templates**: UI rendering using Django templating
+**Custom Management Command**: `refresh_employees` command to simulate data refresh
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
 - **Backend**: Django 5.2.3, Python
 - **Frontend**: HTML/CSS, Bootstrap 5.3.0, JavaScript (Fetch API)
 - **Database**: SQLite (Django ORM)
 - **Templates**: Django Jinja Templates
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 mini_employee_directory/
@@ -39,7 +39,7 @@ mini_employee_directory/
 └── README.md                  # This file
 ```
 
-## 🚀 Getting Started
+##  Getting Started
 
 ### Prerequisites
 - Python 3.8+
@@ -75,12 +75,12 @@ mini_employee_directory/
    - Main App: http://127.0.0.1:8000/
    - Admin Panel: http://127.0.0.1:8000/admin/
 
-## 📋 API Endpoints
+## API Endpoints
 
 - `GET /api/employees/` - List all employees (AJAX)
 - `POST /api/employees/add/` - Add new employee (AJAX)
 
-## 🎯 Key Features Implementation
+##  Key Features Implementation
 
 ### 1. Dynamic Employee Viewing
 - Uses JavaScript Fetch API to load employees asynchronously
@@ -101,13 +101,13 @@ mini_employee_directory/
 - Simulates periodic data refresh
 - Useful for testing and development
 
-## 🔧 Development Notes
+##  Development Notes
 
 - **CSRF**: Currently disabled for demo purposes. Enable in production
 - **Database**: SQLite for development, easily switchable to PostgreSQL/MySQL
 - **Static Files**: Configured for development, use `collectstatic` for production
 
-## 📝 Future Enhancements
+## Future Enhancements
 
 - Employee search and filtering
 - Employee editing and deletion
@@ -116,7 +116,7 @@ mini_employee_directory/
 - API rate limiting
 - Database optimization
 
-## 🎓 Learning Outcomes
+##  Learning Outcomes
 
 This project demonstrates:
 - Full-stack Django development
